@@ -11,6 +11,6 @@ public interface CustomerRepository extends JpaRepository<Customer, Integer> {
 	
 	public List<Customer> getCustomerByName(String name);
 	
-	
+	JpaRepository<Customer, Integer> {
 
 }
